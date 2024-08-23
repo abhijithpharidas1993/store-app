@@ -1,0 +1,40 @@
+.checkout-page{
+    width: 30%;
+    margin: auto;
+}
+
+.item-grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.item-grid div{
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin: 5px 0;
+}
+input{
+    display: block;
+    width: 100%;
+}
+
+.billing-info{
+    margin-top: 20px;
+    span{
+        display: inline-block;
+        padding: 5px;
+        color: red;
+        font-style: italic;
+    }
+
+    
+}
